@@ -1,0 +1,138 @@
+.containerer {
+ width: 100%; 
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #d4ebe8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+
+}
+h1 {
+  color: #000000;
+}
+
+.h-primary {
+  font-size: xx-large !important;
+}
+
+#contactForm{
+font-family: "Exo 2";
+}
+
+.form-grouper {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+.inputer{
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.submiter-btn {
+  background-color: #c4db6f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a2bb4f;
+}
+
+.contacter {
+  display: flex;
+  width: 100%;
+}
+
+.lefter {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  margin: 20px;
+ 
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.righter {
+  width: 50%;
+  margin: 20px;
+}
+
+.abouter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.contactBx {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.sales {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 40vh;
+  height: 45vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 40vh;
+  height: 45vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.services img {
+  width: 80px;
+  height: 80px;
+}
+
+.sales img {
+  width: 80px;
+  height: 80px;
+}
+
+.support h1 {
+  text-align: center;
+}
+
+.map {
+  padding: 30px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+

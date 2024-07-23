@@ -1,0 +1,322 @@
+#target-h1{
+    text-align: center;
+}
+.mid{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    padding: 20px;
+    width: 80%;
+    /* border: 2px solid red; */
+    height: 12vh;
+    margin-top: 15px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-heading{
+    margin: 10px 19px;
+    font-weight: bolder;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-categories .category-list {
+    width: 25%;
+    height: 103vh;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-categories .category-list ul {
+    list-style: none;
+    margin: 16px;
+    padding: 0;
+}
+
+.product-categories .category-list li {
+    margin-bottom: 8px;
+    height: 40px;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 5px;
+    font-family: "Exo 2";
+    transition: background-color 0.3s;
+}
+
+.product-categories .category-list li:hover {
+    background-color: #c4db6f;
+    color: #0f0f0f;
+}
+.open.active {
+    background-color: #c4db6f;
+    color: #0f0f0f;
+}
+
+.product-categories .products {
+    width: 70%;
+}
+
+.products .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.products .product-item img {
+    height: 100px;
+}
+
+.products .product-item .details {
+    width: 50%;
+}
+
+.products .product-item .button-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.products .product-item .button-container button {
+    /* background-color: #81ba8a; */
+    /* background: linear-gradient(to right, #8aa6a3, #10403b); */
+    background: #c4db6f;
+    color: #0a0a0a;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.products .product-item .button-container button:hover {
+    background: #caee48;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+  .card-hidden{
+    font-family: "Exo 2";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+  .logo-3d img{
+    width: 50px;
+  }
+
+  .test img{
+    width: 151px;
+  }
+
+  .test{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-around;
+  }
+ 
+
+
+
+:root {
+  --prime_color: #00894d;
+}
+
+
+
+.container-second {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-3d {
+  height: 100%;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #99dad3, #196e66);
+  transition: 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  box-shadow:
+      #05471100 40px 50px 25px,
+      #02140033 0px 25px 25px;
+}
+
+.glass {
+  transform-style: preserve-3d;
+  position: absolute;
+  inset: 8px;
+  background: linear-gradient(#ffffff59, #ffffffd0);
+  border-radius: 55px;
+  border-top-right-radius: 100%;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0.5s ease-in-out;
+
+  transform: translate3d(0, 0, 25px);
+}
+
+.logo-3d {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-style: preserve-3d;
+}
+
+.logo-3d .circle {
+  position: absolute;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #3bc7ba;
+  top: 0;
+  right: 0;
+  box-shadow: #64646f33 -10px 10px 20px;
+  transition: 0.5s ease-in-out;
+  backdrop-filter: blur(5px);
+}
+
+.logo-3d .circle1 {
+  width: 170px;
+  transform: translate3d(0, 0, 20px);
+  top: 8px;
+  right: 8px;
+  transition-delay: 0.0s;
+}
+
+.logo-3d .circle2 {
+  width: 140px;
+  transform: translate3d(0, 0, 40px);
+  top: 10px;
+  right: 10px;
+  transition-delay: 0.4s;
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+
+.logo-3d .circle3 {
+  width: 110px;
+  transform: translate3d(0, 0, 60px);
+  top: 17px;
+  right: 17px;
+  transition-delay: 0.8s;
+}
+
+.logo-3d .circle4 {
+  width: 80px;
+  transform: translate3d(0, 0, 80px);
+  top: 23px;
+  right: 23px;
+  transition-delay: 1.2s;
+}
+
+.logo-3d .circle5 {
+  width: 50px;
+  transform: translate3d(0, 0, 100px);
+  top: 30px;
+  right: 30px;
+  transition-delay: 1.6s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--prime_color);
+}
+
+.content {
+  padding: 130px 60px 0 30px;
+}
+
+.content h1 {
+  color: var(--prime_color);
+  font-weight: 900;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content p {
+  margin-top: 10px;
+  color: #00a15d;
+  font-size: 15px;
+}
+
+
+
+
+/*Hover Effect*/
+
+.container-second:hover .card-3d {
+  transform: rotate3d(1, 1, 0, 30deg);
+  box-shadow:
+      #0547110d 30px 50px 25px,
+      #05471111 0px 25px 30px;
+}
+
+.container-second:hover .card-3d .footer .social .social_icons {
+  transform: translate3d(0, 0, 50px);
+  box-shadow: #05471133 -5px 20px 10px;
+}
+
+.container-second:hover .card-3d .logo-3d .circle2 {
+  transform: translate3d(0, 0, 60px);
+}
+
+.container-second:hover .card-3d .logo-3d .circle3 {
+  transform: translate3d(0, 0, 80px);
+}
+
+.container.container-second .card-3d .logo-3d .circle4 {
+  transform: translate3d(0, 0, 100px);
+}
+
+.container.container-second .card-3d .logo-3d .circle5 {
+  transform: translate3d(0, 0, 120px);
+}
+
+  /**************************************************/
+  @media (max-width: 700px) {
+
+    .product-categories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-categories .category-list{
+        width: 100%;
+        height: 61vh;
+        margin-bottom: 25px;
+    }
+    .product-categories .products {
+        width: 88%;
+    }
+    
+  }
